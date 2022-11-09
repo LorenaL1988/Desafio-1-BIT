@@ -2,27 +2,23 @@
   background-color: #222280;
   border: solid 2px white;
   border-radius: 5px;
-  margin-top: 200px;
   height: 250px;
   width: 200px;
-  margin-left: 20px;
-  /* margin-bottom: 20px; */
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .container {
   background-color: #222280;
   width: 500px;
-  margin: auto;
+  margin: 100px auto;
   box-shadow: 0 0 10px;
-}
-
-.input- {
-  margin-left: 20px;
 }
 
 .TuDescripcion {
   margin-left: 20px;
-  margin-top: 100px;border-radius: 5px;
+  margin-top: 100px;
+  border-radius: 5px;
 }
 
 .footer {
