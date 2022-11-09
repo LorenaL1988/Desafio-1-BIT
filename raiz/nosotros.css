@@ -1,0 +1,68 @@
+
+
+.contenedorNotrosPrincipal{
+  margin-top: 10px;
+  text-align: justify;
+  background-color: #222280;
+  padding-bottom:100px;
+  margin-left: 25%;
+  width: 540px;
+  border-radius: 10px;
+ box-shadow: 0 0 10px;
+ 
+
+}
+
+h1{
+  margin-bottom: 20px;
+}
+.contenedorParrafo{
+  margin-top: 10 0px;
+  margin-bottom: 50px;  
+  padding:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  margin-top:100VH;
+  background-color: #222280;
+  padding: 10px;
+}
+
+.parrafoF{
+text-align: center;
+}
+
+.footerContact {
+  margin-bottom: 10px;
+}
+
+.footerContact a {
+  color: aqua;
+  font-size: 14px;
+}
+
+.footerContact * {
+  text-align: center;
+  display: block;
+}

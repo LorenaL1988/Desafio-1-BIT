@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #000090;
+  font-family: "Shadows Into Light", cursive;
+  color: white;
+}
+
+
+Nav {
+  background-color: #222280;
+  height: 80px;
+  width: 100%;
+  box-shadow: 0.15px 0 10px;
+  position: fixed;
+  top: 0;
+}
+
+.enlace {
+  position: absolute;
+  padding: 20px 50px;
+
+}
+
+.logo {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  box-shadow: 0.1px 0 10px aqua;
+  transition: all 0.5s;
+}
+ 
+.logo:hover{
+  transform: scale(1.2);
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.listas a.active,
+.listas a:hover {
+  background-color: aqua;
+  transition: 0.5s;
+}
+
+
+.link {
+  box-shadow: 0.1px 0 8px aqua;
+}
+
+
+.banner {
+  background: url(/raiz/img/collage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -88px;
+  box-shadow: 0 0 20px aqua;
+  height: 367px;
+}
+
+.mainContainer {
+  background-color: #222280;
+  max-width: 880px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 8px;
+  border-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.parrafo {
+  text-align: justify;
+  font-size: 18px;
+}
+
+.color
+{
+  color: aqua;
+}
+
+.seeMore {
+  color: aqua;
+  display: inline-block;
+}
+
+.seeMore:hover {
+  color: #5d5dc9;
+}
+
+.subtitulo {
+  padding-left: 40px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.galleryContainer {
+  width: fit-content;
+  margin: auto;
+  transition: 0.3s ease-in-out;
+}
+
+.imgG:hover {
+  transform: scale(1.2);
+}
+
+.imgG {
+  width: 250px;
+  transition: all 0.5s;
+}
+
+.footer {
+  background-color: #222280;
+  padding: 10px;
+}
+
+.parrafoF{
+text-align: center;
+}
+
+.footerContact {
+  margin-bottom: 10px;
+}
+
+.footerContact a {
+  color: aqua;
+  font-size: 14px;
+}
+
+.footerContact * {
+  text-align: center;
+  display: block;
+}
